@@ -1,4 +1,5 @@
 @extends('main')
+@section('title','| Homapage')
 @section('content')
 <div class="row">
     <div class="col-md-12">
@@ -53,3 +54,9 @@
 
 
 @endsection
+
+<!--@section('scripts')
+<script>
+    confirm('I loaded up some JS');
+</script>
+@endsection-->
