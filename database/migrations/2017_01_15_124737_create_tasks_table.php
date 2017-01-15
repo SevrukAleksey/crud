@@ -3,15 +3,14 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateTasksTable extends Migration
-{
+class CreateTasksTable extends Migration {
+
     /**
      * Run the migrations.
      *
      * @return void
      */
-    public function up()
-    {
+    public function up() {
         Schema::create('posts', function (Blueprint $table) {
             $table->increments('id');
             $table->timestamps();
@@ -23,8 +22,8 @@ class CreateTasksTable extends Migration
      *
      * @return void
      */
-    public function down()
-    {
-   z
+    public function down() {
+        
     }
+
 }
