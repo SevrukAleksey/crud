@@ -55,8 +55,3 @@
 
 @endsection
 
-<!--@section('scripts')
-<script>
-    confirm('I loaded up some JS');
-</script>
-@endsection-->
