@@ -67,7 +67,8 @@ class PostController extends Controller
      */
     public function show($id)
     {
-        return view('posts.show');
+        $post = Post::find($id);
+        return view('posts.show')->withPost($post);
     }
 
     /**
@@ -84,7 +85,7 @@ class PostController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param  \Illuminate\Http\Request $request
+     * @param   \Illuminate\Http\Request $request
      * @param  int $id
      * @return \Illuminate\Http\Response
      */
